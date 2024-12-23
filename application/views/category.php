@@ -68,8 +68,8 @@
                                                     <div class="form-floating mb-3">
                                                         <select class="form-select" id="floatingSelectGrid" name="status" >
                                                             <option value="" selected>Open this select menu</option>
-                                                            <option value="0">Active</option>
-                                                            <option value="1">Deactive</option>                                                        
+                                                            <option value="1">Active</option>
+                                                            <option value="0">Deactive</option>                                                        
                                                         </select>
                                                         <label for="floatingSelectGrid">Status</label>
                                                     </div>

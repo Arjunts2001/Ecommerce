@@ -18,7 +18,7 @@ class CategoryModel extends CI_Model {
     }
 
     public function all_category(){
-        $q = $this->db->where('status',1)->get('ec_category');
+        $q = $this->db->where(['status' => 1,'parent_id'=>''])->get('ec_category');
         if($q->num_rows()){
             return $q->result();
         }
