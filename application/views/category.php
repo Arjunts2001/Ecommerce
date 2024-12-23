@@ -24,6 +24,11 @@
 
                 <div class="page-content">
                     <div class="container-fluid">
+                        <?php if($this->session->flashdata('SuccMsg')){ ?>
+                            <div class="alert alert-success">
+                                <?= $this->session->flashdata('SuccMsg'); ?>   
+                            </div>
+                        <?php } ?>
 
                         <div class="col-xl-12">
                             <div class="card">
@@ -41,7 +46,11 @@
                                             <div class="col-md-6">
                                                     <div class="form-floating mb-3">
                                                         <select class="form-select" id="floatingSelectGrid" name="parent_id" >
-                                                            <option selected>Select</option>                 
+                                                        <label for="floatingSelectGrid">Parent Category</label>
+                                                        <?php foreach($categories as $cat){ ?>
+                                                            <option value="<?= $cat->cate_id ?>" selected><?= $cat->cate_name ?></option>  
+                                                        <?php } ?>               
+                                                            <option value="" selected>Select</option>                 
                                                         </select>
                                                         <label for="floatingSelectGrid">Parent Category</label>
                                                     </div>
@@ -50,10 +59,10 @@
 
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
-                                                        <input type="text" class="form-control" id="floatingFirstnameInput" class="cate_name" placeholder="Enter Your  Name">
-                                                        <label for="floatingFirstnameInput">Category Name</label>
+                                                        <input type="text" class="form-control" id="floatingSelectGrid" name="cate_name" placeholder="Category Name">
+                                                        <label >Category Name</label>
                                                     </div>
-                                                    <?= form_error('cate_name'); ?>
+                                                    <medium class="text-danger"><?= form_error('cate_name'); ?></medium>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
@@ -64,7 +73,7 @@
                                                         </select>
                                                         <label for="floatingSelectGrid">Status</label>
                                                     </div>
-                                                    <?= form_error('status'); ?>
+                                                    <medium class="text-danger"><?= form_error('status'); ?></medium>
                                                 </div>
                                             </div>
                                             <div>
