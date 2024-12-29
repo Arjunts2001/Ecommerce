@@ -23,4 +23,9 @@ class  Category extends CI_Controller{
             $this->load->view('category',$data);
         }
     }
+
+    public function get_sub_cate(){
+        $cate_id =  $this->input->post('cate_id');
+        print_r($this->CategoryModel->get_sub_cate($cate_id));
+    }
 }

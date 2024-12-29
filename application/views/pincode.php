@@ -14,6 +14,8 @@
 
         <?php $this->load->view('links'); ?>
 
+
+
     </head>
     <?php $this->load->view('header'); ?>
 
@@ -31,7 +33,7 @@
                         <div class="col-xl-12">
                             <div class="card">
                                 <div class="card-header border-0 align-items-center d-flex pb-0">
-                                    <h4 class="card-title mb-0 flex-grow-1">Category</h4>
+                                    <h4 class="card-title mb-0 flex-grow-1">Pincode</h4>
                                         <div class="text-center mt-4"><a href="javascript: void(0);" 
                                         class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a></div> 
                                                 
@@ -42,27 +44,22 @@
 
                                         <?= form_open(); ?>                                            
                                             <div class="row">
-                                            <div class="col-md-6">
+                                                <div class="col-md-6">
                                                     <div class="form-floating mb-3">
-                                                        <select class="form-select" id="floatingSelectGrid" name="parent_id" >
-                                                        <label for="floatingSelectGrid">Parent Category</label>
-                                                        <?php foreach($categories as $cat){ ?>
-                                                            <option value="<?= $cat->cate_id ?>" selected><?= $cat->cate_name ?></option>  
-                                                        <?php } ?>               
-                                                            <option value="" selected>Select</option>                 
-                                                        </select>
-                                                        <label for="floatingSelectGrid">Parent Category</label>
+                                                        <input type="number" class="form-control" id="floatingSelectGrid" name="pincode" placeholder="Pincode">
+                                                        <label >Pincode</label>
                                                     </div>
+                                                    <medium class="text-danger"><?= form_error('pincode'); ?></medium>
                                                 </div>
-                                            
 
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
-                                                        <input type="text" class="form-control" id="floatingSelectGrid" name="cate_name" placeholder="Category Name">
-                                                        <label >Category Name</label>
+                                                        <input type="number" class="form-control" id="floatingSelectGrid" name="delivery_charge" placeholder="Category Name">
+                                                        <label >Delivery Charges</label>
                                                     </div>
-                                                    <medium class="text-danger"><?= form_error('cate_name'); ?></medium>
+                                                    <medium class="text-danger"><?= form_error('delivery_charge'); ?></medium>
                                                 </div>
+
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
                                                         <select class="form-select" id="floatingSelectGrid" name="status" >
