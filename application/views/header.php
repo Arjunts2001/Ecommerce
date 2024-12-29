@@ -382,12 +382,19 @@
                                 </a>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a href="Settings/pincode" class="waves-effect">
                                     <i class="uim uim-airplay"></i><span class="badge rounded-pill bg-success float-end">3</span>
                                     <span>Pincode</span>
                                 </a>
                             </li>
+
+                            <li>
+                                <a href="Settings/banner" class="waves-effect">
+                                    <i class="uim uim-airplay"></i><span class="badge rounded-pill bg-success float-end">3</span>
+                                    <span>Pincode</span>
+                                </a>
+                            </li> -->
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
@@ -396,8 +403,19 @@
                                 </a>
                                 <ul class="sub-menu" aria-expanded="true">
                                     <li><a href="settings/pincode">Pincode</a></li>
+                                    <li><a href="settings/banner">Banners</a></li>
+
                                 </ul>
+
                             </li>
+
+                            <li>
+                                <a href="product" class="waves-effect">
+                                    <i class="uim uim-airplay"></i><span class="badge rounded-pill bg-success float-end">3</span>
+                                    <span>Product</span>
+                                </a>
+                            </li>
+
                
 
  <!--                            <li>

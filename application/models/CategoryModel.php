@@ -16,7 +16,8 @@ class CategoryModel extends CI_Model {
             return FALSE;
         }
     }
-
+    
+    // code is used to display category in parent category 
     public function all_category(){
         $q = $this->db->where(['status' => 1,'parent_id'=>''])->get('ec_category');
         if($q->num_rows()){
@@ -24,44 +25,17 @@ class CategoryModel extends CI_Model {
         }
     }
 
-    // public function update_data($post){
-        
-    //     $post['updated_on'] = date('d ,M ,y');
-    //     $post['status'] = 1;
-    //     unset($post["submit"]);
-
-    //     $q = $this->db->where('id',$post['id'])->update('register', $post);
-    //     if($q){
-    //         return TRUE;
-    //     }else{
-    //         return FALSE;
-    //     }
-    // }
-
-
-    // public function all_data($id=''){ 
-    //     if($id!=''){
-    //         $q = $this->db->where('id',$id)->get('register');
-    //         if($q->num_rows()){
-    //             return $q->row();
-    //     }else{
-    //         return false;
-    //     }
-    // }
-    //     $q = $this->db->order_by('id','desc')->get('register');
-    //     if($q->num_rows()){
-    //         return $q->result();
-    //     }else{
-    //         return false; 
-    //     }
-    // }
-
-    // public function delete_data($id){
-    //     $q = $this->db->where('id',$id)->delete('register');
-    //     if($q){
-    //         return TRUE;
-    //     }
-    // }
+    public function get_sub_cate(){
+        $q = $this->db->where(['status' => 1,'parent_id'=>$cate_id])->get('ec_category');
+        if($q->num_rows()){
+            // return $q->result();
+            $output ='';
+            foreach($q->result() as $val){
+                $output.= '<option value="'.$val->cate_id.'" selected>' .$val->cate_name. '</option>';
+            }
+            echo $output;
+        }
+    }
 }
 
         
