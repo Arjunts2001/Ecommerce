@@ -48,7 +48,14 @@ class  Product extends CI_Controller{
             // echo '<pre>';
             // print_r($post);
         }else{
+
+            if($this->session->userdata('pro_id')!=''){
+                $pro_id = $this->session->userdata('pro_id');
+            }else{
+                $this->session->set_userdata('pro_id',mt_rand(11111,99999));
+            }
             $data['categories'] =  $this->CategoryModel->all_category();
+            $data['pro_id'] = $pro_id;
             $this->load->view('product',$data);
         }
     }

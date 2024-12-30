@@ -1,12 +1,3 @@
-<?php
-
-if($this->session->userdata('pro_id')!=''){
-    $pro_id = $this->session->userdata('pro_id');
-}else{
-    $this->session->set_userdata('pro_id',mt_rand(11111,99999));
-}
-
-?>
 
 <!doctype html>
 <html lang="en">
