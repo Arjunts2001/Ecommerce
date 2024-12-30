@@ -25,7 +25,7 @@ class CategoryModel extends CI_Model {
         }
     }
 
-    public function get_sub_cate(){
+    public function get_sub_cate($cate_id){
         $q = $this->db->where(['status' => 1,'parent_id'=>$cate_id])->get('ec_category');
         if($q->num_rows()){
             // return $q->result();
