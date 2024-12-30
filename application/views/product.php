@@ -71,7 +71,7 @@ if($this->session->userdata('pro_id')!=''){
                                                                 <option value="<?=$value->cate_id ?>" ><?=$value->cate_name ?></option>
                                                             <?php } ?>
                                                         </select>
-                                                        <label for="floatingSelectGrid">Status</label>
+                                                        <label for="floatingSelectGrid">Category</label>
                                                     </div>
                                                     <medium class="text-danger"><?= form_error('category'); ?></medium>
                                                 </div>
