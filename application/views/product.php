@@ -34,9 +34,15 @@ if($this->session->userdata('pro_id')!=''){
 
                 <div class="page-content">
                     <div class="container-fluid">
-                        <?php if($this->session->flashdata('SuccMsg')){ ?>
+                        <?php if($this->session->flashdata('succMsg')){ ?>
                             <div class="alert alert-success">
-                                <?= $this->session->flashdata('SuccMsg'); ?>   
+                                <?= $this->session->flashdata('succMsg'); ?>   
+                            </div>
+                        <?php } ?>
+
+                        <?php if($this->session->flashdata('errMsg')){ ?>
+                            <div class="alert alert-danger">
+                                <?= $this->session->flashdata('errMsg'); ?>   
                             </div>
                         <?php } ?>
 
