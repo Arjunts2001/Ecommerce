@@ -15,19 +15,19 @@
                         <div class="navbar-brand-box">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-dark.png" alt="logo-sm-dark" height="24">
+                                    <img src="assets_back/images/logo-dark.png" alt="logo-sm-dark" height="24">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-sm-dark.png" alt="logo-dark" height="25">
+                                    <img src="assets_back/images/logo-sm-dark.png" alt="logo-dark" height="25">
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-light.png" alt="logo-sm-light" height="24">
+                                    <img src="assets_back/images/logo-light.png" alt="logo-sm-light" height="24">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-sm-light.png" alt="logo-light" height="25">
+                                    <img src="assets_back/images/logo-sm-light.png" alt="logo-light" height="25">
                                 </span>
                             </a>
                         </div>
@@ -77,28 +77,28 @@
                         <div class="dropdown d-none d-sm-inline-block">
                             <button type="button" class="btn header-item waves-effect"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
+                                <img class="" src="assets_back/images/flags/us.jpg" alt="Header Language" height="16">
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
                     
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
+                                    <img src="assets_back/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
+                                    <img src="assets_back/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
+                                    <img src="assets_back/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
+                                    <img src="assets_back/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
                                 </a>
                             </div>
                         </div>
@@ -113,19 +113,19 @@
                                     <div class="row g-0">
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/github.png" alt="Github">
+                                                <img src="assets_back/images/brands/github.png" alt="Github">
                                                 <span>GitHub</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
+                                                <img src="assets_back/images/brands/bitbucket.png" alt="bitbucket">
                                                 <span>Bitbucket</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                                <img src="assets_back/images/brands/dribbble.png" alt="dribbble">
                                                 <span>Dribbble</span>
                                             </a>
                                         </div>
@@ -134,19 +134,19 @@
                                     <div class="row g-0">
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dropbox.png" alt="dropbox">
+                                                <img src="assets_back/images/brands/dropbox.png" alt="dropbox">
                                                 <span>Dropbox</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
+                                                <img src="assets_back/images/brands/mail_chimp.png" alt="mail_chimp">
                                                 <span>Mail Chimp</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/slack.png" alt="slack">
+                                                <img src="assets_back/images/brands/slack.png" alt="slack">
                                                 <span>Slack</span>
                                             </a>
                                         </div>
@@ -198,7 +198,7 @@
                                     </a>
                                     <a href="#" class="text-reset notification-item">
                                         <div class="d-flex">
-                                            <img src="assets/images/users/avatar-3.jpg"
+                                            <img src="assets_back/images/users/avatar-3.jpg"
                                                 class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                             <div class="flex-1">
                                                 <h6 class="mb-1">James Lemire</h6>
@@ -228,7 +228,7 @@
 
                                     <a href="#" class="text-reset notification-item">
                                         <div class="d-flex">
-                                            <img src="assets/images/users/avatar-4.jpg"
+                                            <img src="assets_back/images/users/avatar-4.jpg"
                                                 class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                             <div class="flex-1">
                                                 <h6 class="mb-1">Salena Layfield</h6>
@@ -267,19 +267,19 @@
                  <div class="navbar-brand-box">
                     <a href="index.html" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="assets/images/logo-sm-dark.png" alt="logo-sm-dark" height="24">
+                            <img src="assets_back/images/logo-sm-dark.png" alt="logo-sm-dark" height="24">
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo-dark.png" alt="logo-dark" height="22">
+                            <img src="assets_back/images/logo-dark.png" alt="logo-dark" height="22">
                         </span>
                     </a>
 
                     <a href="index.html" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="assets/images/logo-sm-light.png" alt="logo-sm-light" height="24">
+                            <img src="assets_back/images/logo-sm-light.png" alt="logo-sm-light" height="24">
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo-light.png" alt="logo-light" height="22">
+                            <img src="assets_back/images/logo-light.png" alt="logo-light" height="22">
                         </span>
                     </a>
                 </div>
@@ -625,7 +625,7 @@
                     <button type="button" class="btn w-100 px-0 border-0" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="d-flex align-items-center">
                             <div class="flex-shrink-0">
-                                    <img src="assets/images/users/avatar-2.jpg" class="img-fluid header-profile-user rounded-circle" alt="">
+                                    <img src="assets_back/images/users/avatar-2.jpg" class="img-fluid header-profile-user rounded-circle" alt="">
                             </div>
 
                             <div class="flex-grow-1 ms-2 text-start">

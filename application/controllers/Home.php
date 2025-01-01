@@ -9,6 +9,7 @@ class Home extends CI_Controller {
     
     public function index() {
         $data['banner'] = $this->HomeModel->get_banner(); // Ensure correct capitalization
+        $data['categ'] = $this->HomeModel->get_categ();
         $this->load->view('frond/index', $data);
     }
 }
