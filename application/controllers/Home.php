@@ -14,4 +14,10 @@ class Home extends CI_Controller {
 
         $this->load->view('frond/index', $data);
     }
+
+    public function product_details($slug){
+        $data['arr'] = $this->HomeModel->product_details($slug);
+        echo "<pre>";
+        print_r( $data['arr']);
+    }
 }

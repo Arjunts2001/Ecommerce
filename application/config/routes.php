@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $route['default_controller'] = 'dashboard';
 $route['default_controller'] = 'home';
+$route['product/(:any)'] = 'home/product_details/$1';
+
 
 // $route['category']  = 'Category/index';
 $route['404_override'] = '';
