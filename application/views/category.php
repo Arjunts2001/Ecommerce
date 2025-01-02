@@ -40,7 +40,7 @@
                                         <h5 class="card-title">Floating labels</h5>
                                         <p class="card-title-desc">Create beautifully simple form labels that float over your input fields.</p>
 
-                                        <?= form_open(); ?>                                            
+                                        <?= form_open_multipart(); ?>                                            
                                             <div class="row">
                                             <div class="col-md-6">
                                                     <div class="form-floating mb-3">
@@ -63,6 +63,7 @@
                                                     </div>
                                                     <medium class="text-danger"><?= form_error('cate_name'); ?></medium>
                                                 </div>
+
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
                                                         <select class="form-select" id="floatingSelectGrid" name="status" >
@@ -74,6 +75,15 @@
                                                     </div>
                                                     <medium class="text-danger"><?= form_error('status'); ?></medium>
                                                 </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="file" class="form-control" id="floatingSelectGrid" name="image" placeholder="  Image">
+                                                        <label >Image</label>
+                                                    </div>
+                                                    <!-- <medium class="text-danger"><?= form_error('image'); ?></medium> -->
+                                                </div>
+
                                             </div>
                                             <div>
                                                 <button type="submit" class="btn btn-primary w-md">Submit</button>

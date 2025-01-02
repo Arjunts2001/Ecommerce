@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Place favicon.ico in the root directory -->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+      <link rel="shortcut icon" type="image/x-icon" href="assets_frond/img/logo/favicon.png">
       <?php $this->load->view('frond/links'); ?>
       <!-- CSS here -->
 
@@ -28,7 +28,7 @@
                   <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                      <div class="logo">
                         <a href="index.html">
-                           <img src="assets/img/logo/logo.svg" alt="logo">
+                           <img src="assets_frond/img/logo/logo.svg" alt="logo">
                         </a>
                      </div>
                   </div>
@@ -44,7 +44,7 @@
                                           <div class="home-menu-item ">
                                              <a href="index.html">
                                                 <div class="home-menu-thumb p-relative fix">
-                                                   <img src="assets/img/menu/menu-home-1.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/menu-home-1.jpg" alt="">
                                                 </div>
                                                 <div class="home-menu-content">
                                                    <h5 class="home-menu-title">Electronics </h5>
@@ -56,7 +56,7 @@
                                           <div class="home-menu-item ">
                                              <a href="index-2.html">
                                                 <div class="home-menu-thumb p-relative fix">
-                                                   <img src="assets/img/menu/menu-home-2.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/menu-home-2.jpg" alt="">
                                                 </div>
                                                 <div class="home-menu-content">
                                                    <h5 class="home-menu-title">Fashion</h5>
@@ -68,7 +68,7 @@
                                           <div class="home-menu-item ">
                                              <a href="index-3.html">
                                                 <div class="home-menu-thumb p-relative fix">
-                                                   <img src="assets/img/menu/menu-home-3.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/menu-home-3.jpg" alt="">
                                                 </div>
                                                 <div class="home-menu-content">
                                                    <h5 class="home-menu-title">Beauty</h5>
@@ -80,7 +80,7 @@
                                           <div class="home-menu-item ">
                                              <a href="index-4.html">
                                                 <div class="home-menu-thumb p-relative fix">
-                                                   <img src="assets/img/menu/menu-home-4.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/menu-home-4.jpg" alt="">
                                                 </div>
                                                 <div class="home-menu-content">
                                                    <h5 class="home-menu-title">Jewelry </h5>
@@ -92,7 +92,7 @@
                                           <div class="home-menu-item ">
                                              <a href="index-5.html">
                                                 <div class="home-menu-thumb p-relative fix">
-                                                   <img src="assets/img/menu/menu-home-5.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/menu-home-5.jpg" alt="">
                                                 </div>
                                                 <div class="home-menu-content">
                                                    <h5 class="home-menu-title">Grocery</h5>
@@ -151,7 +151,7 @@
                                        </div>
                                        <div class="col-lg-3">
                                           <div class="shop-mega-menu-img">
-                                             <img src="assets/img/menu/product/menu-product-img-1.jpg" alt="">
+                                             <img src="assets_frond/img/menu/product/menu-product-img-1.jpg" alt="">
                                              <div class="shop-mega-menu-btn">
                                                 <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Phones</a>
                                              </div>
@@ -159,7 +159,7 @@
                                        </div>
                                        <div class="col-lg-3">
                                           <div class="shop-mega-menu-img">
-                                             <img src="assets/img/menu/product/menu-product-img-2.jpg" alt="">
+                                             <img src="assets_frond/img/menu/product/menu-product-img-2.jpg" alt="">
                                              <div class="shop-mega-menu-btn">
                                                 <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Cameras</a>
                                              </div>
@@ -308,10 +308,10 @@
                ?>
                   <div class="tp-slider-item tp-slider-height d-flex align-items-center swiper-slide green-dark-bg">
                      <div class="tp-slider-shape">
-                        <img class="tp-slider-shape-1" src="assets/img/slider/shape/slider-shape-1.png" alt="slider-shape">
-                        <img class="tp-slider-shape-2" src="assets/img/slider/shape/slider-shape-2.png" alt="slider-shape">
-                        <img class="tp-slider-shape-3" src="assets/img/slider/shape/slider-shape-3.png" alt="slider-shape">
-                        <img class="tp-slider-shape-4" src="assets/img/slider/shape/slider-shape-4.png" alt="slider-shape">
+                        <img class="tp-slider-shape-1" src="assets_frond/img/slider/shape/slider-shape-1.png" alt="slider-shape">
+                        <img class="tp-slider-shape-2" src="assets_frond/img/slider/shape/slider-shape-2.png" alt="slider-shape">
+                        <img class="tp-slider-shape-3" src="assets_frond/img/slider/shape/slider-shape-3.png" alt="slider-shape">
+                        <img class="tp-slider-shape-4" src="assets_frond/img/slider/shape/slider-shape-4.png" alt="slider-shape">
                      </div>
                      <div class="container">
                         <div class="row align-items-center">
@@ -369,81 +369,25 @@
          <section class="tp-product-category pt-60 pb-15">
             <div class="container">
                <div class="row row-cols-xl-5 row-cols-lg-5 row-cols-md-4">
+                  <?php if(!empty($categ)):
+                     foreach($categ as $cat):                 
+                  ?>
                   <div class="col">
                      <div class="tp-product-category-item text-center mb-40">
                         <div class="tp-product-category-thumb fix">
                            <a href="shop-category.html">
-                              <img src="assets/img/product/category/product-cat-1.png" alt="product-category">
+                              <img src="uploads/<?=$cat->image?>" alt="product-category">
                            </a>
                         </div>
                         <div class="tp-product-category-content">
                            <h3 class="tp-product-category-title">
-                              <a href="shop-category.html">Headphones</a>
+                              <a href="shop-category.html"><?=$cat->cate_name?></a>
                            </h3>
-                           <p>20 Product</p>
+               
                         </div>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="tp-product-category-item text-center mb-40">
-                        <div class="tp-product-category-thumb fix">
-                           <a href="shop-category.html">
-                              <img src="assets/img/product/category/product-cat-2.png" alt="product-category">
-                           </a>
-                        </div>
-                        <div class="tp-product-category-content">
-                           <h3 class="tp-product-category-title">
-                              <a href="shop-category.html">Mobile Phone</a>
-                           </h3>
-                           <p>25 Product</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="tp-product-category-item text-center mb-40">
-                        <div class="tp-product-category-thumb fix">
-                           <a href="shop-category.html">
-                              <img src="assets/img/product/category/product-cat-3.png" alt="product-category">
-                           </a>
-                        </div>
-                        <div class="tp-product-category-content">
-                           <h3 class="tp-product-category-title">
-                              <a href="shop-category.html">CPU Heat Pipes</a>
-                           </h3>
-                           <p>57 Product</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="tp-product-category-item text-center mb-40">
-                        <div class="tp-product-category-thumb fix">
-                           <a href="shop-category.html">
-                              <img src="assets/img/product/category/product-cat-4.png" alt="product-category">
-                           </a>
-                        </div>
-                        <div class="tp-product-category-content">
-                           <h3 class="tp-product-category-title">
-                              <a href="shop-category.html">Smart Watch</a>
-                           </h3>
-                           <p>44 Product</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="tp-product-category-item text-center mb-40">
-                        <div class="tp-product-category-thumb fix">
-                           <a href="shop-category.html">
-                              <img src="assets/img/product/category/product-cat-5.png" alt="product-category">
-                           </a>
-                        </div>
-                        <div class="tp-product-category-content">
-                           <h3 class="tp-product-category-title">
-                              <a href="shop-category.html">With Bluetooth </a>
-                           </h3>
-                           <p>81 Product</p>
-                        </div>
-                     </div>
-                  </div>
+                     <?php endforeach; endif; ?>
                </div>
             </div>
          </section>
@@ -589,7 +533,7 @@
                                     <div class="tp-product-item p-relative transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -668,7 +612,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -746,7 +690,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -825,7 +769,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-4.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-4.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -899,7 +843,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -977,7 +921,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -1050,7 +994,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1128,7 +1072,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1211,7 +1155,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1289,7 +1233,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -1362,7 +1306,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1440,7 +1384,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1519,7 +1463,7 @@
                                     <div class="tp-product-item p-relative transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1598,7 +1542,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1676,7 +1620,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1755,7 +1699,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-4.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-4.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -1833,7 +1777,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1911,7 +1855,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -1990,7 +1934,7 @@
                                     <div class="tp-product-item p-relative transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -2069,7 +2013,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-2.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-2.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -2147,7 +2091,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -2225,7 +2169,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-5-1.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-5-1.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -2298,7 +2242,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-3.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-3.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product badge -->
@@ -2377,7 +2321,7 @@
                                     <div class="tp-product-item transition-3 mb-25">
                                        <div class="tp-product-thumb p-relative fix m-img">
                                           <a href="product-details.html">
-                                             <img src="assets/img/product/product-4.jpg" alt="product-electronic">
+                                             <img src="assets_frond/img/product/product-4.jpg" alt="product-electronic">
                                           </a>
                
                                           <!-- product action -->
@@ -2464,7 +2408,7 @@
                <div class="row">
                   <div class="col-xl-8 col-lg-7">
                      <div class="tp-banner-item tp-banner-height p-relative mb-30 z-index-1 fix">
-                        <div class="tp-banner-thumb include-bg transition-3" data-background="assets/img/product/banner/product-banner-1.jpg"></div>
+                        <div class="tp-banner-thumb include-bg transition-3" data-background="assets_frond/img/product/banner/product-banner-1.jpg"></div>
                         <div class="tp-banner-content">
                            <span>Sale 20% off all store</span>
                            <h3 class="tp-banner-title">
@@ -2483,7 +2427,7 @@
                   </div>
                   <div class="col-xl-4 col-lg-5">
                      <div class="tp-banner-item tp-banner-item-sm tp-banner-height p-relative mb-30 z-index-1 fix">
-                        <div class="tp-banner-thumb include-bg transition-3" data-background="assets/img/product/banner/product-banner-2.jpg"></div>
+                        <div class="tp-banner-thumb include-bg transition-3" data-background="assets_frond/img/product/banner/product-banner-2.jpg"></div>
                         <div class="tp-banner-content">
                            <h3 class="tp-banner-title">
                               <a href="product-details.html">HyperX Cloud II <br> Wireless</a>
@@ -2541,7 +2485,7 @@
                               <div class="tp-product-offer-item tp-product-item transition-3 swiper-slide">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/offer/product-offer-1.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/offer/product-offer-1.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product action -->
@@ -2637,7 +2581,7 @@
                               <div class="tp-product-offer-item tp-product-item transition-3 swiper-slide">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/offer/product-offer-2.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/offer/product-offer-2.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product action -->
@@ -2733,7 +2677,7 @@
                               <div class="tp-product-offer-item tp-product-item transition-3 swiper-slide">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/offer/product-offer-3.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/offer/product-offer-3.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product action -->
@@ -2829,7 +2773,7 @@
                               <div class="tp-product-offer-item tp-product-item transition-3 swiper-slide">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/offer/product-offer-2.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/offer/product-offer-2.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product action -->
@@ -2939,7 +2883,7 @@
                      <div class="tp-product-gadget-sidebar mb-40">
                         <div class="tp-product-gadget-categories p-relative fix mb-10">
                            <div class="tp-product-gadget-thumb">
-                              <img src="assets/img/product/gadget/gadget-girl.png" alt="">
+                              <img src="assets_frond/img/product/gadget/gadget-girl.png" alt="">
                            </div>
                            <h3 class="tp-product-gadget-categories-title">Electronics <br> Gadgets</h3>
 
@@ -2966,7 +2910,7 @@
                         <div class="tp-product-gadget-banner">
                            <div class="tp-product-gadget-banner-slider-active swiper-container">
                               <div class="swiper-wrapper">
-                                 <div class="tp-product-gadget-banner-item swiper-slide include-bg" data-background="assets/img/product/gadget/gadget-banner-1.jpg">
+                                 <div class="tp-product-gadget-banner-item swiper-slide include-bg" data-background="assets_frond/img/product/gadget/gadget-banner-1.jpg">
                                     <div class="tp-product-gadget-banner-content">
                                        <span class="tp-product-gadget-banner-price">Only $99.00</span>
                                        <h3 class="tp-product-gadget-banner-title">
@@ -2974,7 +2918,7 @@
                                        </h3>
                                     </div>
                                  </div>
-                                 <div class="tp-product-gadget-banner-item swiper-slide include-bg" data-background="assets/img/product/gadget/gadget-banner-2.jpg">
+                                 <div class="tp-product-gadget-banner-item swiper-slide include-bg" data-background="assets_frond/img/product/gadget/gadget-banner-2.jpg">
                                     <div class="tp-product-gadget-banner-content">
                                        <span class="tp-product-gadget-banner-price">Only $55.00</span>
                                        <h3 class="tp-product-gadget-banner-title">
@@ -2995,7 +2939,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-12.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-12.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3073,7 +3017,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-13.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-13.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product action -->
@@ -3147,7 +3091,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-14.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-14.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3225,7 +3169,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-15.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-15.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3304,7 +3248,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-16.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-16.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3382,7 +3326,7 @@
                               <div class="tp-product-item p-relative transition-3 mb-25">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-17.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-17.jpg" alt="product-electronic">
                                     </a>
                   
                                     <!-- product action -->
@@ -3484,11 +3428,11 @@
                                  <div class="tp-product-banner-thumb-wrapper p-relative">
                                     <div class="tp-product-banner-thumb-shape">
                                        <span class="tp-product-banner-thumb-gradient"></span>
-                                       <img class="tp-offer-shape" src="assets/img/banner/banner-slider-offer.png" alt="">
+                                       <img class="tp-offer-shape" src="assets_frond/img/banner/banner-slider-offer.png" alt="">
                                     </div>
          
                                     <div class="tp-product-banner-thumb text-end p-relative z-index-1">
-                                       <img src="assets/img/banner/banner-slider-1.png" alt="">
+                                       <img src="assets_frond/img/banner/banner-slider-1.png" alt="">
                                     </div>
                                  </div>
                               </div>
@@ -3514,11 +3458,11 @@
                                  <div class="tp-product-banner-thumb-wrapper p-relative">
                                     <div class="tp-product-banner-thumb-shape">
                                        <span class="tp-product-banner-thumb-gradient"></span>
-                                       <img class="tp-offer-shape" src="assets/img/banner/banner-slider-offer.png" alt="">
+                                       <img class="tp-offer-shape" src="assets_frond/img/banner/banner-slider-offer.png" alt="">
                                     </div>
                        
                                     <div class="tp-product-banner-thumb text-end p-relative z-index-1">
-                                       <img src="assets/img/banner/banner-slider-2.png" alt="">
+                                       <img src="assets_frond/img/banner/banner-slider-2.png" alt="">
                                     </div>
                                  </div>
                               </div>
@@ -3544,11 +3488,11 @@
                                  <div class="tp-product-banner-thumb-wrapper p-relative">
                                     <div class="tp-product-banner-thumb-shape">
                                        <span class="tp-product-banner-thumb-gradient"></span>
-                                       <img class="tp-offer-shape" src="assets/img/banner/banner-slider-offer.png" alt="">
+                                       <img class="tp-offer-shape" src="assets_frond/img/banner/banner-slider-offer.png" alt="">
                                     </div>
                        
                                     <div class="tp-product-banner-thumb text-end p-relative z-index-1">
-                                       <img src="assets/img/banner/banner-slider-3.png" alt="">
+                                       <img src="assets_frond/img/banner/banner-slider-3.png" alt="">
                                     </div>
                                  </div>
                               </div>
@@ -3601,7 +3545,7 @@
                               <div class="tp-product-item transition-3 mb-25 swiper-slide">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-6.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-6.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3678,7 +3622,7 @@
                               <div class="tp-product-item transition-3 mb-25 swiper-slide ">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-7.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-7.jpg" alt="product-electronic">
                                     </a>
                
                                     <!-- product action -->
@@ -3750,7 +3694,7 @@
                               <div class="tp-product-item transition-3 mb-25 swiper-slide ">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-8.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-8.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3827,7 +3771,7 @@
                               <div class="tp-product-item transition-3 mb-25 swiper-slide ">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-9.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-9.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -3904,7 +3848,7 @@
                               <div class="tp-product-item transition-3 mb-25 swiper-slide ">
                                  <div class="tp-product-thumb p-relative fix m-img">
                                     <a href="product-details.html">
-                                       <img src="assets/img/product/product-10.jpg" alt="product-electronic">
+                                       <img src="assets_frond/img/product/product-10.jpg" alt="product-electronic">
                                     </a>
          
                                     <!-- product badge -->
@@ -4005,7 +3949,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-1.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-1.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4037,7 +3981,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-2.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-2.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4067,7 +4011,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-3.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-3.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4111,7 +4055,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-4.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-4.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4141,7 +4085,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-5.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-5.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4171,7 +4115,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-6.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-6.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4215,7 +4159,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-7.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-7.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4245,7 +4189,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-8.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-8.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4275,7 +4219,7 @@
                            <div class="tp-product-sm-item d-flex align-items-center">
                               <div class="tp-product-thumb mr-25 fix">
                                  <a href="product-details.html">
-                                    <img src="assets/img/product/sm/product-sm-9.jpg" alt="">
+                                    <img src="assets_frond/img/product/sm/product-sm-9.jpg" alt="">
                                  </a>
                               </div>
                               <div class="tp-product-sm-content">
@@ -4346,7 +4290,7 @@
                               <div class="tp-blog-item mb-30 swiper-slide">
                                  <div class="tp-blog-thumb p-relative fix">
                                     <a href="blog-details.html">
-                                       <img src="assets/img/blog/blog-1.jpg" alt="">
+                                       <img src="assets_frond/img/blog/blog-1.jpg" alt="">
                                     </a>
                                     <div class="tp-blog-meta tp-blog-meta-date">
                                        <span>14 July, 2022</span>
@@ -4381,7 +4325,7 @@
                               <div class="tp-blog-item mb-30 swiper-slide">
                                  <div class="tp-blog-thumb p-relative fix">
                                     <a href="blog-details.html">
-                                       <img src="assets/img/blog/blog-2.jpg" alt="">
+                                       <img src="assets_frond/img/blog/blog-2.jpg" alt="">
                                     </a>
                                     <div class="tp-blog-meta tp-blog-meta-date">
                                        <span>10 Nov, 2022</span>
@@ -4416,7 +4360,7 @@
                               <div class="tp-blog-item mb-30 swiper-slide">
                                  <div class="tp-blog-thumb p-relative fix">
                                     <a href="blog-details.html">
-                                       <img src="assets/img/blog/blog-3.jpg" alt="">
+                                       <img src="assets_frond/img/blog/blog-3.jpg" alt="">
                                     </a>
                                     <div class="tp-blog-meta tp-blog-meta-date">
                                        <span>20 June, 2023</span>
@@ -4463,41 +4407,41 @@
                <div class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
                   <div class="col">
                      <div class="tp-instagram-item p-relative z-index-1 fix mb-30 w-img">
-                        <img src="assets/img/instagram/instagram-1.jpg" alt="">
+                        <img src="assets_frond/img/instagram/instagram-1.jpg" alt="">
                         <div class="tp-instagram-icon">
-                           <a href="assets/img/instagram/instagram-1.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="assets_frond/img/instagram/instagram-1.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="tp-instagram-item p-relative z-index-1 fix mb-30 w-img">
-                        <img src="assets/img/instagram/instagram-2.jpg" alt="">
+                        <img src="assets_frond/img/instagram/instagram-2.jpg" alt="">
                         <div class="tp-instagram-icon">
-                           <a href="assets/img/instagram/instagram-2.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="assets_frond/img/instagram/instagram-2.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="tp-instagram-item p-relative z-index-1 fix mb-30 w-img">
-                        <img src="assets/img/instagram/instagram-3.jpg" alt="">
+                        <img src="assets_frond/img/instagram/instagram-3.jpg" alt="">
                         <div class="tp-instagram-icon">
-                           <a href="assets/img/instagram/instagram-3.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="assets_frond/img/instagram/instagram-3.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="tp-instagram-item p-relative z-index-1 fix mb-30 w-img">
-                        <img src="assets/img/instagram/instagram-4.jpg" alt="">
+                        <img src="assets_frond/img/instagram/instagram-4.jpg" alt="">
                         <div class="tp-instagram-icon">
-                           <a href="assets/img/instagram/instagram-4.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="assets_frond/img/instagram/instagram-4.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
                   <div class="col">
                      <div class="tp-instagram-item p-relative z-index-1 fix mb-30 w-img">
-                        <img src="assets/img/instagram/instagram-5.jpg" alt="">
+                        <img src="assets_frond/img/instagram/instagram-5.jpg" alt="">
                         <div class="tp-instagram-icon">
-                           <a href="assets/img/instagram/instagram-5.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="assets_frond/img/instagram/instagram-5.jpg" class="popup-image"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                      </div>
                   </div>
@@ -4509,13 +4453,13 @@
          <!-- subscribe area start -->
          <section class="tp-subscribe-area pt-70 pb-65 theme-bg p-relative z-index-1">
             <div class="tp-subscribe-shape">
-               <img class="tp-subscribe-shape-1" src="assets/img/subscribe/subscribe-shape-1.png" alt="">
-               <img class="tp-subscribe-shape-2" src="assets/img/subscribe/subscribe-shape-2.png" alt="">
-               <img class="tp-subscribe-shape-3" src="assets/img/subscribe/subscribe-shape-3.png" alt="">
-               <img class="tp-subscribe-shape-4" src="assets/img/subscribe/subscribe-shape-4.png" alt="">
+               <img class="tp-subscribe-shape-1" src="assets_frond/img/subscribe/subscribe-shape-1.png" alt="">
+               <img class="tp-subscribe-shape-2" src="assets_frond/img/subscribe/subscribe-shape-2.png" alt="">
+               <img class="tp-subscribe-shape-3" src="assets_frond/img/subscribe/subscribe-shape-3.png" alt="">
+               <img class="tp-subscribe-shape-4" src="assets_frond/img/subscribe/subscribe-shape-4.png" alt="">
                <!-- plane shape -->
                <div class="tp-subscribe-plane">
-                  <img class="tp-subscribe-plane-shape" src="assets/img/subscribe/plane.png" alt="">
+                  <img class="tp-subscribe-plane-shape" src="assets_frond/img/subscribe/plane.png" alt="">
                   <svg width="399" height="110" class="d-none d-sm-block" viewBox="0 0 399 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path d="M0.499634 1.00049C8.5 20.0005 54.2733 13.6435 60.5 40.0005C65.6128 61.6426 26.4546 130.331 15 90.0005C-9 5.5 176.5 127.5 218.5 106.5C301.051 65.2247 202 -57.9188 344.5 40.0003C364 53.3997 384 22 399 22" stroke="white" stroke-opacity="0.5" stroke-dasharray="3 3"/>
                   </svg>
@@ -4556,38 +4500,38 @@
                         <nav>
                            <div class="nav nav-tabs flex-sm-column " id="productDetailsNavThumb" role="tablist">
                               <button class="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">
-                                 <img src="assets/img/product/details/nav/product-details-nav-1.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/nav/product-details-nav-1.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2" aria-selected="false">
-                                 <img src="assets/img/product/details/nav/product-details-nav-2.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/nav/product-details-nav-2.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3" aria-selected="false">
-                                 <img src="assets/img/product/details/nav/product-details-nav-3.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/nav/product-details-nav-3.jpg" alt="">
                               </button>
                               <button class="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4" aria-selected="false">
-                                 <img src="assets/img/product/details/nav/product-details-nav-4.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/nav/product-details-nav-4.jpg" alt="">
                               </button>
                            </div>
                         </nav>
                         <div class="tab-content m-img" id="productDetailsNavContent">
                            <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/main/product-details-main-1.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/main/product-details-main-1.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/main/product-details-main-2.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/main/product-details-main-2.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/main/product-details-main-3.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/main/product-details-main-3.jpg" alt="">
                               </div>
                            </div>
                            <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab" tabindex="0">
                               <div class="tp-product-details-nav-main-thumb">
-                                 <img src="assets/img/product/details/main/product-details-main-4.jpg" alt="">
+                                 <img src="assets_frond/img/product/details/main/product-details-main-4.jpg" alt="">
                               </div>
                            </div>
                          </div>
@@ -4722,7 +4666,7 @@
                            <div class="tp-footer-widget-content">
                               <div class="tp-footer-logo">
                                  <a href="index.html">
-                                    <img src="assets/img/logo/logo.svg" alt="logo">
+                                    <img src="assets_frond/img/logo/logo.svg" alt="logo">
                                  </a>
                               </div>
                               <p class="tp-footer-desc">We are a team of designers and developers that create high quality WordPress</p>
@@ -4821,7 +4765,7 @@
                         <div class="col-md-6">
                            <div class="tp-footer-payment text-md-end">
                               <p>
-                                 <img src="assets/img/footer/footer-pay.png" alt="">
+                                 <img src="assets_frond/img/footer/footer-pay.png" alt="">
                               </p>
                            </div>
                         </div>

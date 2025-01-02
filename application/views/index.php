@@ -400,7 +400,7 @@
                                             <table class="table table-borderless table-centered align-middle table-nowrap mb-0">
                                                 <tbody>
                                                     <tr>
-                                                        <td style="width: 20px;"><img src="assets/images/users/avatar-4.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td style="width: 20px;"><img src="assets_back/images/users/avatar-4.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Glenn Holden</h6>
                                                             <p class="text-muted mb-0 font-size-14">glennholden@tocly.com</p>
@@ -424,7 +424,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-5.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-5.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Lolita Hamill</h6>
                                                             <p class="text-muted mb-0 font-size-14">lolitahamill@tocly.com</p>
@@ -448,7 +448,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-6.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-6.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Robert Mercer</h6>
                                                             <p class="text-muted mb-0 font-size-14">robertmercer@tocly.com</p>
@@ -472,7 +472,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-7.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-7.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Marie Kim</h6>
                                                             <p class="text-muted mb-0 font-size-14">mariekim@tocly.com</p>
@@ -496,7 +496,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-8.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-8.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Sonya Henshaw</h6>
                                                             <p class="text-muted mb-0 font-size-14">sonyahenshaw@tocly.com</p>
@@ -520,7 +520,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-2.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-2.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Marie Kim</h6>
                                                             <p class="text-muted mb-0 font-size-14">marikim@tocly.com</p>
@@ -544,7 +544,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-1.jpg" class="avatar-sm rounded-circle " alt="..."></td>
+                                                        <td><img src="assets_back/images/users/avatar-1.jpg" class="avatar-sm rounded-circle " alt="..."></td>
                                                         <td>
                                                             <h6 class="font-size-15 mb-1">Sonya Henshaw</h6>
                                                             <p class="text-muted mb-0 font-size-14">sonyahenshaw@tocly.com</p>
@@ -628,7 +628,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2540</a> </td>
-                                                        <td><img src="assets/images/users/avatar-2.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Neal Matthews</td>
+                                                        <td><img src="assets_back/images/users/avatar-2.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Neal Matthews</td>
                                                         <td><p class="mb-0">cs562xf452dd</p></td>
                                                         <td>
                                                             07 Oct, 2022 
@@ -658,7 +658,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2541</a> </td>
-                                                        <td><img src="assets/images/users/avatar-3.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Jamal Burnett</td>
+                                                        <td><img src="assets_back/images/users/avatar-3.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Jamal Burnett</td>
                                                         <td><p class="mb-0">ar252xf658dd</p></td>
                                                         <td>
                                                             07 Oct, 2022
@@ -689,7 +689,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2542</a> </td>
-                                                        <td><img src="assets/images/users/avatar-4.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Juan Mitchell</td>
+                                                        <td><img src="assets_back/images/users/avatar-4.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Juan Mitchell</td>
                                                         <td><p class="mb-0">op632xf223dd</p></td>
                                                         <td>
                                                             06 Oct, 2022
@@ -718,7 +718,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2543</a> </td>
-                                                        <td><img src="assets/images/users/avatar-5.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Barry Dick</td>
+                                                        <td><img src="assets_back/images/users/avatar-5.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Barry Dick</td>
                                                         <td><p class="mb-0">ty756xf985dd</p></td>
                                                         <td>
                                                             05 Oct, 2022
@@ -747,7 +747,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2544</a> </td>
-                                                        <td><img src="assets/images/users/avatar-6.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Ronald Taylor</td>
+                                                        <td><img src="assets_back/images/users/avatar-6.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Ronald Taylor</td>
                                                         <td><p class="mb-0">jf754xf431dd</p></td>
                                                         <td>
                                                             04 Oct, 2022
@@ -776,7 +776,7 @@
                                                             </div>
                                                         </td>
                                                         <td><a href="javascript: void(0);" class="text-body">#MB2545</a> </td>
-                                                        <td><img src="assets/images/users/avatar-7.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Jacob Hunter</td>
+                                                        <td><img src="assets_back/images/users/avatar-7.jpg" class="avatar-xs rounded-circle me-2" alt="..."> Jacob Hunter</td>
                                                         <td><p class="mb-0">fd964xf467dd</p></td>
                                                         <td>
                                                             04 Oct, 2022

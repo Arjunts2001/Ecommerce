@@ -23,7 +23,7 @@
                <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo logo">
                      <a href="index.html">
-                        <img src="assets/img/logo/logo.svg" alt="logo">
+                        <img src="assets_frond/img/logo/logo.svg" alt="logo">
                      </a>
                   </div>
                </div>
@@ -41,7 +41,7 @@
                <div class="offcanvas__contact align-items-center d-none">
                   <div class="offcanvas__contact-icon mr-20">
                      <span>
-                        <img src="assets/img/icon/contact.png" alt="">
+                        <img src="assets_frond/img/icon/contact.png" alt="">
                      </span>
                   </div>
                   <div class="offcanvas__contact-content">
@@ -68,7 +68,7 @@
                   <div class="offcanvas__select language">
                      <div class="offcanvas__lang d-flex align-items-center justify-content-md-end">
                         <div class="offcanvas__lang-img mr-15">
-                           <img src="assets/img/icon/language-flag.png" alt="">
+                           <img src="assets_frond/img/icon/language-flag.png" alt="">
                         </div>
                         <div class="offcanvas__lang-wrapper">
                            <span class="offcanvas__lang-selected-lang tp-lang-toggle" id="tp-offcanvas-lang-toggle">English</span>
@@ -189,7 +189,7 @@
                      <div class="cartmini__widget-item">
                          <div class="cartmini__thumb">
                            <a href="product-details.html">
-                              <img src="assets/img/product/product-1.jpg" alt="">
+                              <img src="assets_frond/img/product/product-1.jpg" alt="">
                            </a>
                          </div>
                          <div class="cartmini__content">
@@ -205,7 +205,7 @@
                  <!-- for wp -->
                  <!-- if no item in cart -->
                  <div class="cartmini__empty text-center d-none">
-                     <img src="assets/img/product/cartmini/empty-cart.png" alt="">
+                     <img src="assets_frond/img/product/cartmini/empty-cart.png" alt="">
                      <p>Your Cart is empty</p>
                      <a href="shop.html" class="tp-btn">Go to Shop</a>
                  </div>
@@ -309,7 +309,7 @@
                      <div class="col-xl-2 col-lg-2 col-md-4 col-6">
                         <div class="logo">
                            <a href="index.html">
-                              <img src="assets/img/logo/logo.svg" alt="logo">
+                              <img src="assets_frond/img/logo/logo.svg" alt="logo">
                            </a>
                         </div>
                      </div>
@@ -450,7 +450,7 @@
                                                <a href="shop.html" class="mega-menu-title">Featured</a>
                                                <ul>
                                                   <li>
-                                                     <a href="shop.html"><img src="assets/img/header/menu/menu-1.jpg" alt=""></a>
+                                                     <a href="shop.html"><img src="assets_frond/img/header/menu/menu-1.jpg" alt=""></a>
                                                   </li>
                                                   <li>
                                                      <a href="shop.html">New Arrivals</a>
@@ -468,7 +468,7 @@
                                                <a href="shop.html" class="mega-menu-title">Computer & Laptops</a>
                                                <ul>
                                                   <li>
-                                                   <a href="shop.html"><img src="assets/img/header/menu/menu-2.jpg" alt=""></a>
+                                                   <a href="shop.html"><img src="assets_frond/img/header/menu/menu-2.jpg" alt=""></a>
                                                   </li>
                                                   <li>
                                                      <a href="shop.html">Top Brands</a>
@@ -485,7 +485,7 @@
                                                <a href="shop.html" class="mega-menu-title">Accessories</a>
                                                <ul>
                                                   <li>
-                                                   <a href="shop.html"><img src="assets/img/header/menu/menu-3.jpg" alt=""></a>
+                                                   <a href="shop.html"><img src="assets_frond/img/header/menu/menu-3.jpg" alt=""></a>
                                                   </li>
                                                   <li>
                                                      <a href="shop.html">Headphones</a>
@@ -619,7 +619,7 @@
                                                 <div class="home-menu-item ">
                                                    <a href="index.html">
                                                       <div class="home-menu-thumb p-relative fix">
-                                                         <img src="assets/img/menu/menu-home-1.jpg" alt="">
+                                                         <img src="assets_frond/img/menu/menu-home-1.jpg" alt="">
                                                       </div>
                                                       <div class="home-menu-content">
                                                          <h5 class="home-menu-title">Electronics </h5>
@@ -631,7 +631,7 @@
                                                 <div class="home-menu-item ">
                                                    <a href="index-2.html">
                                                       <div class="home-menu-thumb p-relative fix">
-                                                         <img src="assets/img/menu/menu-home-2.jpg" alt="">
+                                                         <img src="assets_frond/img/menu/menu-home-2.jpg" alt="">
                                                       </div>
                                                       <div class="home-menu-content">
                                                          <h5 class="home-menu-title">Fashion</h5>
@@ -643,7 +643,7 @@
                                                 <div class="home-menu-item ">
                                                    <a href="index-3.html">
                                                       <div class="home-menu-thumb p-relative fix">
-                                                         <img src="assets/img/menu/menu-home-3.jpg" alt="">
+                                                         <img src="assets_frond/img/menu/menu-home-3.jpg" alt="">
                                                       </div>
                                                       <div class="home-menu-content">
                                                          <h5 class="home-menu-title">Beauty</h5>
@@ -655,7 +655,7 @@
                                                 <div class="home-menu-item ">
                                                    <a href="index-4.html">
                                                       <div class="home-menu-thumb p-relative fix">
-                                                         <img src="assets/img/menu/menu-home-4.jpg" alt="">
+                                                         <img src="assets_frond/img/menu/menu-home-4.jpg" alt="">
                                                       </div>
                                                       <div class="home-menu-content">
                                                          <h5 class="home-menu-title">Jewelry </h5>
@@ -667,7 +667,7 @@
                                                 <div class="home-menu-item ">
                                                    <a href="index-5.html">
                                                       <div class="home-menu-thumb p-relative fix">
-                                                         <img src="assets/img/menu/menu-home-5.jpg" alt="">
+                                                         <img src="assets_frond/img/menu/menu-home-5.jpg" alt="">
                                                       </div>
                                                       <div class="home-menu-content">
                                                          <h5 class="home-menu-title">Grocery</h5>
@@ -726,7 +726,7 @@
                                              </div>
                                              <div class="col-lg-3">
                                                 <div class="shop-mega-menu-img">
-                                                   <img src="assets/img/menu/product/menu-product-img-1.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/product/menu-product-img-1.jpg" alt="">
                                                    <div class="shop-mega-menu-btn">
                                                       <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Phones</a>
                                                    </div>
@@ -734,7 +734,7 @@
                                              </div>
                                              <div class="col-lg-3">
                                                 <div class="shop-mega-menu-img">
-                                                   <img src="assets/img/menu/product/menu-product-img-2.jpg" alt="">
+                                                   <img src="assets_frond/img/menu/product/menu-product-img-2.jpg" alt="">
                                                    <div class="shop-mega-menu-btn">
                                                       <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Cameras</a>
                                                    </div>
